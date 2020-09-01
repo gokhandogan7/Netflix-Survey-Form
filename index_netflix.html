@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">NET<span>FLIX</span>
+        </h1>
+        <h3 id="description">
+            Thank you for signing up at Netflix. Tell us more about your self
+        </h3>
+        <form action="" id="formid" method="GET" target="_blank">
+            <div class="box box1">
+                <label for="name">Name</label>
+                <br>
+                <input required type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="box box2">
+                <label for="age">Age</label>
+                <br>
+                <input required type="number" id="age" name="age" min="18" max="65" placeholder="Age">
+            </div>
+            <div class="box box3 ">
+                <label for="email">Email</label>
+                <br>
+                <input required type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="box box4 ">
+                <label for="content">Content Type</label>
+                <br>
+                <select name="content type" id="content">
+                    <option value="Series ">Series</option>
+                    <option value="Movies ">Movies</option>
+                </select>
+            </div>
+            <div class="box box5 ">
+                <label for="movie type" class="hiza">Movie Type</label>
+                <br>
+                <input type="checkbox" name="comedy" id="comedy">
+                <label for="comedy">Comedy</label>
+                <br>
+                <input type="checkbox" name="action " id="action">
+                <label for="action">Action</label>
+                <br>
+                <input type="checkbox" name="romance " id="romance">
+                <label for="romance">Romance</label>
+            </div>
+            <div class="box box6 ">
+                <label for="gender" class="hiza">Gender</label>
+                <br>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="other">
+                <label for="other ">Other</label>
+            </div>
+
+            <div class="box box7 ">
+                <label for="feedback">Feed Back</label>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="any comment "></textarea>
+            </div>
+            <div>
+                <input type="submit" id="button"></input>
+
+            </div>
+    </div>
+    </form>
+    </div>
+    <div>
+
+    </div>
+
+</body>
+
+</html>
